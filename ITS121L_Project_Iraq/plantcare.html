@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Plant Care</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="pic/logo2.png"> type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .centerimg {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        
+        <a href="#" class="logo">
+            <img src="pic/logo.png" alt="Ficus Garden Logo">
+        </a>
+        
+        <nav class="navbar">
+            <div class="dropdown">
+                <a style="font-family: 'Lato', sans-serif;" class="expandable-word" href="#" id="homeDropdown">Home <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a style="font-family: 'Lato', sans-serif;" href="index.html#products">Best-Sellers</a>
+                    <a style="font-family: 'Lato', sans-serif;" href="index.html#review">Review</a>
+                    <a style="font-family: 'Lato', sans-serif;" href="index.html#contact">Contact</a>
+                </div>
+            </div> 
+            <a style="font-family: 'Lato', sans-serif;" class="expandable-word" href="shop.html">Shop</a>
+            <a style="font-family: 'Lato', sans-serif;" class="expandable-word" href="plantcare.html">Plant Care</a>
+            <a style="font-family: 'Lato', sans-serif;" class="expandable-word" href="aboutus.html">About Us</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3 style="text-align: center; font-family: 'Courier New', Courier, monospace; font-size: 100px; float: left;" >General <br> Plant Care</h3>
+            
+        </div>
+    </section>
+
+    <section class="about" id="plantcare">
+        <div class="row">
+            <div class="image">
+            </div>
+            <div class="content">
+                <div class="contact-information">
+                    <p><span style="font-family: 'Lato', sans-serif;">In our low-maintenance plant collection, a bit of care ensures your leafy friend thrives. Just like you, plants feel a bit stressed in a new home; it's normal. Your TLC is the secret sauce for them to settle and flourish. Join us on a journey, and watch your plants blossom into a life of joy! 🌿✨</p>
+                    <br>
+                    <br>
+                    <br>
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1138552930.jpg?crop=1.00xw:0.752xh;0,0.0457xh&resize=1200:*" class="plantcare">
+               
+                    <img src="data:image/webp;base64,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" style="text-align: center" class="centerimg img-fluid rounded;">
+                    <p style="text-align: center; margin-left: 800px; max-width: 900px; font-family: 'Lato', sans-serif;">Step into the lush realm of indoor plant care! Picture this: your indoor buddies usually enjoy a weekly watering session, but here's the secret sauce – get hands-on! Use your finger or a stick to feel the soil. If it feels a bit soggy or sticky, hold off on the watering drama. With a touch of practice, you'll groove into your plant's watering rhythm like a pro. Cheers to becoming the maestro of H2O harmony, where every drop plays a part in your plant's happy dance of growth. Let the watering wisdom flow, and let your indoor jungle flourish! 💦🌱✨</p>
+                
+                    <img src="https://cdn.shopify.com/s/files/1/0579/7924/0580/t/18/assets/shutterstock_84890899.jpgv1661851149?v=1661851155" class="plantcares">
+                
+                    <img src="data:image/webp;base64,UklGRtwHAABXRUJQVlA4WAoAAAAQAAAATwAATwAAQUxQSIQHAAANJAFJisqIiIb+s22r23Z9t44sy7Iiz2XPi7wUZEVlZmZmcmAut66bcuumFJWZ63qtg0qZmXHMjGXIoswqeB5ZR0fnF866iJgA2bZtm3Y0Wmw7ebJVtm3btm1bccq2bdu2bcV2LtbJB0TEBEDRtu3YdP02kv/EmQXYyv80I3EFRmac5Mg8K2CabNu2jQ9pUkRMAK+vUK99Xfsf9y99oHgUxs5JAd6oV+HD/CPFQWopID1NVHUbVBqb2vOf4uoXwGfbrsNLqd5o3xYjW39RmKsIccFnKGOHwtuOC5zfOlVZe5F84J7UrWrs2pov0xPDS7ScqKiuDlbA6DygZq8mw49FmXUbdOSNNEGQdMzi4UkG+kief+zt67Jy8aWxk216xspKX9bVenfXUVnF3p4C7Fu4PwLuxna7hw/8cq5NswPZkrpvAOrnWAMxRX24ykBkP8BXy5f721w6Wt89/pcgR4SXe37Pbj10Re5FwIP0lHb8EldwpJxNmRvPfHXcPggajDwIDnVf5ok+Dv2DFTmJkwpUs385WP6Pt8AkWVAj7r4Eaf21aPp0/9SvUArIaop0U4byk+CS4fWjZ7YqXm835SoMFMG2Qvg/qFAZO4DkV646rtfPxW+K/mN4OIzn/TdYrbnrxNfJbqUc6Bqk3A/S7hNH3It6XTWQrUO2IDdUQOtcnmeiTLFAR7uBL+eszAS5oJz6m0j4ULbOJfbuQhtV/xJ1ZHf+h2A3cqxemH98KBtvIO7jepG3+Tb/Yy3hbl56DiBmo/Tu4K9M+CowZ2zb8KrTWvWstgl6E/EG0niUniiiDyAecGxLjT7NTRZis5759+S4cTvlHJQ1S5H8qO8riTacOWziqwJmYBEvCRagdB5CDqD9zdScrNa7Fj5Dus0NK1GmHEKeh96/AtYdnuWZ0iwFsPOVwnYA8jBYGI0G6qGTLUkIQ+H3AJYS2Jw0wg+Te/dgwJ9tcoQNcPwagLAX9j3A+F9DMyPdlv+QM83O5QMod8Dh9zF1Q+zy4GZy3ua9HSjXwPljqNtHPr8s6+BJz+69dCh1S0beB1aU863cjqDuOEb1H0J6SB6eGGux2GpootZaOq8nP0I5pS6frUHdfgyYb1mvB7YtXl6iR9+ej7TUf4kc+gZlRgd+CKG5Aja27rosWqGLF9079gtcvXKNVlrPo1xCOXAE94MoU1rb73ak+OeKqLPjVX2kjvy13C08cXh2JUR5nomye4CyiQDC3DnghVKeOh3VnxuAXWejGWIyz7z6FoIo24aIZQMI21B3VbSVeYjhUt2ByVvNS4PbisZriGcCCNvg5qzYpBWWVTeClP9gKHA+8V3XO3Q3r8JF86+g3i7+GQMgbIOruyD/WbheAWIAo57RJHcktV0d875x1AmviKUWIPpQLoWrEYD83/JgFkb1dpPeGW6X9DRPztnh3TIniuRH1cfzAEpvN2DOsTID2Zl0B7J1qMTLtza0jyIHUL/Yv/q6oAjeCGLxpPSIv8xA5U8AJXlXCWy1T7MzD81Qk4zRQwKJ5psQ/RCuH/GXaVkMOXMlOR6wq8GJyiBnQF85oSVN7JMxckdSRvRD/pfh9C2DNMy24tQbwCCW9NWVImUvaRw+9J4a0sQWMxw1eT4ZIP/ziE1UM9oImwF0lsMi9Dtt/JPQQzyzIO1A7l01pHnXe1f79SNU89c5UDVYD0tSAZ1I2PZYJaFgIFgqSvb8o8XTWQc8ReOfq8Evl1+g/RhVy0pY8RJgIRzYjcpd0wCr19/dd1eLTyJF6et8ooaZwi7YdBVgJpxYjeoupCFSzRGD6+/KjGlx/Os1nbOnyqYJm2DPYYBxelxYitrybSl2wlZaJxjSwcbqE95JXWvaCjixHmCIIzdmo6InXboto3708cKxN2M65OCo7it+PmzSIgu3wwF6BXBvPEX3znNjCZ/UYO9k+5p/dCDuSReiBR+ZMv0tPlsD0KEyT0ZSpLCuMciJONplDkdWmh6l/cC8hyaMa8F3IYBmTXk1kKIXwd01t5PolBFiCSOe1ILsuKHRvfhlFkC9rnzoSdFeHzdDGF5TbKRjQcMVmaKBgWN4PBWg2kC+dUXFHOIBKv/gvbyew3JkXT0nUzYeoNxEfnVE1d4c5L+4Oi1rkmOrnvYLiPkBms/kX3tUTuNrM7o0MySH6to3fHpSq/kK4j6A+ltIbI/qVpLGBIZ3MqQUisKfqdXfQsIHUC9Cans0WWeZM1iulSLxl2hKStXSWU8V9cIkfQCeAsSOaNJ2AZKXtXpCh19MaX0mbW9mAjwFJLMB3KVIfjTaGnY70Kwe4jsBU28eCzfNzZZcJUgTAWqWIk9GszZYhbqlax5yCJMLny/s32vNAeSpAM5DyDlUqmi1fmlzgBzC9CVNRs+YiDwHwHEIFmD2lfnpCcaiHUFgqZq/fymrSvBRD+Dog2b+fKrvCDiIZFhezqf3EPKmuCNIxD1nTs+B1qe/o5/PayOXCL5X2JKQUhoNPDQjj1uF/qoY7cvRaCdCqps3e0XD00DXjP3hBWFTsry1Z6IBbg4QWotS/SCmf6Y3xhuWXAda+cj1a1nJNiOfVlA4IDIAAAAQBACdASpQAFAAPt1us1QopiSjIUgBEBuJaQAACfGjRo0aNGjRo0Z+AAD+8qEAAAAAAA==" class="centerimg img-fluid rounded">                  
+                    <p style="text-align: center; margin-right: 800px; max-width: 900px; font-family: 'Lato', sans-serif;">Get ready for a hydration extravaganza! When it's time to water your beloved plant, go all out. Pour that H2O until you catch a glimpse of a little performance—the elegant dance of droplets gracefully escaping from the drainage holes. It's more than just watering; it's like treating your plant to a rejuvenating sip, ensuring the moisture reaches deep into the roots, creating the perfect rhythm for a happy and hydrated journey of growth. Imagine it as a lively dance where each drop contributes to the flourishing symphony of your plant's vitality. So, grab that watering can and let the liquid celebration begin, nurturing your plant into a lush spectacle of green vitality! 💧🌿🌟</p>
+                    
+                  
+                    <img src="https://www.thespruce.com/thmb/pyIxm4IOO1zoTNCsUCJJQuk8qlM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/https---www.thespruce.com-best-houseplants-for-sun-4147670-2-8ec2c6cc6c784f80aa1013beadb35a35.jpg" class="plantcare">
+                    
+                    <img src="data:image/webp;base64,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" class="centerimg img-fluid rounded">
+                    <p style="text-align: center; margin-left: 800px; max-width: 900px; font-family: 'Lato', sans-serif;"> Give your plants the spotlight they deserve! Whether they're cozily tucked away in the dim corners of your living space or basking in the office center stage, it's time to switch things up. Embrace the art of rotation, gently relocating them to spots bathed in the natural glow of sunlight streaming through windows. This simple act not only invites a refreshing change of scenery for your green pals but also provides a rejuvenating dose of sunlight, coaxing them into a lively dance of growth and vitality. So, let your plants revel in the spotlight, and watch as they gracefully thrive and flourish under the nurturing touch of sunlight! 🌞🌿🌟</p>
+                    
+                    <img src="https://www.thespruce.com/thmb/jhuopn_mr_alntlkOW_luFM_dXU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/how-to-clean-houseplant-leaves-1403205-01-98f8003ed87d45bc8cb6ef1b819b4ce3.jpg" class="plantcares">
+                   
+                    <img src="data:image/webp;base64,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" class="centerimg img-fluid rounded">
+                    <p style="text-align: center; margin-right: 800px; max-width: 900px; font-family: 'Lato', sans-serif;">Revitalize your indoor oasis with a leafy spa day! It's time to shake off the dust and pamper those leaves to keep them gleaming and breathing freely. Grab a damp, soft cloth and embark on a regular wipe-down routine, offering your plants the tender care they deserve. But why stop there? If your space allows, elevate their self-care experience by treating them to a refreshing shower—a grander spa day indeed! As the water droplets gently cascade over their leaves, your plants will thank you with a radiant glow, flourishing in the renewed energy of their revitalized environment. 🍃💦✨</p>
+                    <br><br><br>
+                    <div id="slider">
+                        <input type="radio" name="slider" id="slide1" checked>
+                        <input type="radio" name="slider" id="slide2">
+                        <input type="radio" name="slider" id="slide3">
+                        <input type="radio" name="slider" id="slide4">
+                        <div id="slides">
+                           <div id="overflow">
+                              <div class="inner">
+                                 <div class="slide slide_1">
+                                    <div class="slide-content">
+                                        <img src="pic/slide1.jpg">
+
+                                    </div>
+                                 </div>
+                                 <div class="slide slide_2">
+                                    <div class="slide-content">
+                                       <img src="pic/slide2.jpg">
+                                    </div>
+                                 </div>
+                                 <div class="slide slide_3">
+                                    <div class="slide-content">
+                                        <img src="pic/slide3.jpg">
+
+                                    </div>
+                                 </div>
+                                 <div class="slide slide_4">
+                                    <div class="slide-content">
+                                        <img src="pic/slide4.jpg">
+
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div id="controls">
+                           <label for="slide1"></label>
+                           <label for="slide2"></label>
+                           <label for="slide3"></label>
+                           <label for="slide4"></label>
+                        </div>
+                        <div id="bullets">
+                           <label for="slide1"></label>
+                           <label for="slide2"></label>
+                           <label for="slide3"></label>
+                           <label for="slide4"></label>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Products</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href="#">My Account</a>
+                <a href="#">My Order</a>
+                <a href="#">My Favorite</a>
+            </div>
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">Manila</a>
+                <a href="#">Makati</a>
+                <a href="#">Taguig</a>
+                <a href="#">Quezon City</a>
+            </div>
+            
+            <div class="box">
+                
+                <h3>Contact Info</h3>
+                    
+                <a href="#">add contact number</a>
+                <a href="#">ficusgardenph@gmail.com</a>
+                <a href="#">Las Piñas, Metro Manila, Philippines</a>
+                
+            </div>
+        </div>
+        <div class="credit">Created by <span>Iraq Group</span> | All Rights Reserved </div>
+
+    </section>
+    
+</body>
+</html>
